@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(218, 23%, 16%);
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 62.5%;
+}
+
+.main {
+  background-color: #313a49;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 90%;
+  max-width: 545px;
+  /*height: 60vh;*/
+  flex: 0.3;
+}
+.nuAd {
+  text-align: center;
+  margin-top: 8.5vh;
+  color: #53ffa9;
+  font-size: 1.7em;
+  text-transform: uppercase;
+}
+.parr {
+  width: 90%;
+  max-width: 437px;
+  margin: 0 auto;
+  margin-top: 6.5vh;
+  height: 21vh;
+  height: auto;
+}
+.parr .parrafo {
+  font-size: 2.1em;
+  text-align: center;
+  line-height: 6vh;
+  font-weight: 800;
+  color: white;
+}
+.separador {
+  width: 90%;
+  max-width: 445px;
+  margin: 0 auto;
+  margin-top: 4.2vh;
+}
+.separador img {
+  width: 100%;
+}
+.bo {
+  position: relative;
+  width: 90%;
+  max-width: 67px;
+  height: 67px;
+  margin-top: calc(-67px / 2);
+}
+.bo .boton {
+  width: 100%;
+  height: 100%;
+  border-radius: 40%;
+  background-color: #53ffab;
+}
+
+.img {
+  animation: infinite 2s;
+}
+.bo :hover {
+  box-shadow: 0 5px 15px 5px hsl(150, 100%, 66%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
